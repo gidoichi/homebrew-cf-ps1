@@ -5,6 +5,6 @@ class CfPs1 < Formula
   license "MIT"
 
   def install
-    bin.install "cf-ps1.sh"
+    libexec.install "cf-ps1.sh"
   end
 end
